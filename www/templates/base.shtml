@@ -1,0 +1,17 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>liaochao's Django</title>
+    <script src="{% static 'service-worker.js' %}"></script>
+</head>
+<body>
+<h1>keke</h1>
+<div>
+         <block name="middle">middle</block>
+</div>
+</body>
+</html>
